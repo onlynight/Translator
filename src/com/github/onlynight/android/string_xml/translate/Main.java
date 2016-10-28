@@ -38,8 +38,8 @@ public class Main {
     private static void baidu(File currentPath, boolean translateAllXml) {
         TranslateManager.getInstance().
                 init(currentPath.getAbsolutePath(), translateAllXml, TranslatePlatform.BAIDU);
-//        TranslateManager.getInstance().translate(Language.CN, Language.EN);
+        TranslateManager.getInstance().translate(Language.CN, Language.EN);
         TranslateManager.getInstance().translate(Language.CN, Language.JA);
-//        TranslateManager.getInstance().translate(Language.CN, Language.TW);
+        TranslateManager.getInstance().translate(Language.CN, Language.TW);
     }
 }
