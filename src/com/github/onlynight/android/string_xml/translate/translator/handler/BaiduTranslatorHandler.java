@@ -1,8 +1,9 @@
-package com.github.onlynight.android.string_xml.translate.translator.xml;
+package com.github.onlynight.android.string_xml.translate.translator.handler;
 
 import com.alibaba.fastjson.JSON;
 import com.github.onlynight.android.string_xml.translate.translator.Language;
 import com.github.onlynight.android.string_xml.translate.translator.result.BaiduTranslateResult;
+import com.github.onlynight.android.string_xml.translate.utils.Constants;
 import com.github.onlynight.android.string_xml.translate.utils.MD5Utils;
 
 import java.io.UnsupportedEncodingException;
@@ -10,20 +11,16 @@ import java.net.URLEncoder;
 import java.util.Random;
 
 /**
- * Created by lion on 2016/10/28.
+ * Created by lion on 2016/10/30.
  */
-public class BaiduXMLTransaltor extends XMLTranslator {
+public class BaiduTranslatorHandler implements TranslatorHandler {
 
+    private static final String BAIDU_APP_ID = Constants.BAIDU_APP_ID;
+    private static final String BAIDU_APP_SECRET = Constants.BAIDU_APP_SECRET;
     private static final String BAIDU_TRANSLATE_URL = "http://api.fanyi.baidu.com/api/trans/vip/translate?";
-    private static final String BAIDU_APP_ID = "20161028000030981";
-    private static final String BAIDU_APP_SECRET = "6SluTL5sbgymRn0IWZfd";
-
-    public BaiduXMLTransaltor(String filePath) {
-        super(filePath);
-    }
 
     @Override
-    protected String onGenerateUrl(String content, Language src, Language target) {
+    public String onGenerateUrl(String content, Language src, Language target) {
         Random random = new Random();
         int randomInt = random.nextInt();
         String sign = sign(content, randomInt);
@@ -38,18 +35,22 @@ public class BaiduXMLTransaltor extends XMLTranslator {
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-
         return null;
     }
 
     @Override
-    protected String onTranslateFinished(String result) {
+    public String handleJsonString(String result) {
         BaiduTranslateResult jsonResult = JSON.parseObject(result, BaiduTranslateResult.class);
         if (jsonResult != null &&
                 jsonResult.getTrans_result() != null &&
                 jsonResult.getTrans_result().get(0) != null) {
             return jsonResult.getTrans_result().get(0).getDst();
         }
+        return null;
+    }
+
+    @Override
+    public String handleXMLString(String result) {
         return null;
     }
 

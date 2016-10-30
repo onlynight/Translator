@@ -1,7 +1,8 @@
-package com.github.onlynight.android.string_xml.translate.translator.xml;
+package com.github.onlynight.android.string_xml.translate.translator.xmlImpl;
 
 import com.github.onlynight.android.string_xml.translate.translator.Language;
 import com.github.onlynight.android.string_xml.translate.translator.Translator;
+import com.github.onlynight.android.string_xml.translate.utils.Constants;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.DocumentHelper;
@@ -10,29 +11,17 @@ import org.dom4j.Element;
 import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
-import java.net.URLEncoder;
-import java.util.HashMap;
 import java.util.Iterator;
-import java.util.Map;
 
 /**
  * Created by lion on 2016/10/28.
+ * android string.xmlImpl 字符串资源翻译器读写管理，并且调用翻译REST_API进行翻译。
+ * 基本逻辑如下：
+ * 1. 读取xml文件
+ * 2. 遍历xml标签，逐一进行翻译
+ * 3. 将翻译完成的xml保存的新的文件中
  */
-public abstract class XMLTranslator extends Translator {
-
-    private static final String VALUES_EN = "values-en";
-    private static final String VALUES_JA = "values-ja";
-    private static final String VALUES_CN = "values-zh-rCN";
-    private static final String VALUES_TW = "values-zh-rTW";
-
-    private static final Map<Language, String> folders = new HashMap<>();
-
-    static {
-        folders.put(Language.CN, VALUES_CN);
-        folders.put(Language.TW, VALUES_TW);
-        folders.put(Language.JA, VALUES_JA);
-        folders.put(Language.EN, VALUES_EN);
-    }
+public abstract class XMLTranslator implements Translator {
 
     private String filePath;
 
@@ -70,7 +59,7 @@ public abstract class XMLTranslator extends Translator {
     }
 
     private String getValuesFolderName(Language target) {
-        return folders.get(target);
+        return Constants.valuesFolders.get(target);
     }
 
     private Document getDocument(String xml) {
@@ -125,10 +114,6 @@ public abstract class XMLTranslator extends Translator {
         }
         return null;
     }
-
-    protected abstract String onGenerateUrl(String content, Language src, Language target);
-
-    protected abstract String onTranslateFinished(String result);
 
     @Override
     public void translate(Language src, Language target) {

@@ -7,9 +7,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a0e54aa-a1e1-44f0-b9b7-2fe6815913de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/GoogleTranslatorHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/TranslatorHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/YouDaoTranslatorHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/BaiduXMLTranslator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/GoogleXMLTranslator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/YouDaoXMLTranslator.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/xml/BaiduXMLTransaltor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/xml/GoogleXMLTranslator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/xml/XMLTranslator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/xml/YouDaoXMLTranslator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/GoogleXMLTranslator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/YouDaoXMLTranslator.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/Main.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/Language.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/Language.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/TranslatePlatform.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/TranslatePlatform.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/Translator.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/Translator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/BaiduTranslateResult.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/BaiduTranslateResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult$DataBean.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult$DataBean.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/utils/Constants.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/utils/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.class" afterPath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/Main.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Language.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Language.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslatePlatform.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslatePlatform.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Translator.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Translator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/values-en/strings.xml" afterPath="$PROJECT_DIR$/values-en/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/values-en/umeng_strings.xml" afterPath="$PROJECT_DIR$/values-en/umeng_strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/values-ja/strings.xml" afterPath="$PROJECT_DIR$/values-ja/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/values-ja/umeng_strings.xml" afterPath="$PROJECT_DIR$/values-ja/umeng_strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/values-zh-rTW/strings.xml" afterPath="$PROJECT_DIR$/values-zh-rTW/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/values-zh-rTW/umeng_strings.xml" afterPath="$PROJECT_DIR$/values-zh-rTW/umeng_strings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/BaiduXMLTransaltor.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/BaiduTranslatorHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/XMLTranslator.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/XMLTranslator.java" />
     </list>
     <ignored path="StringXMLTranslate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,8 +69,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="1326">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,8 +81,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -77,30 +113,46 @@
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/common/TranslateManager.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/GoogleXMLTranslator.java" />
         <option value="$PROJECT_DIR$/libs/dom4j-2.0.0-RC1.jar!/org/dom4j/Document.class" />
-        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/base/XMLTranslator.java" />
-        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Translator.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/XMLTranslator.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/result/BaiduTranslateResult.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/BaiduLanguage.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/BaiduLanguage.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/language/BaiduLanguage.java" />
-        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Language.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslatePlatform.java" />
-        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Language.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/XMLTranslator.java" />
-        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/YouDaoXMLTranslator.java" />
-        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/GoogleXMLTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/TranslateHandler.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/BaiduXMLTransaltor.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Translator.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslateOperation.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/BaiduTranslateHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/BaiduTranslatorHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/BaiduXMLTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/GoogleTranslatorHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/GoogleXMLTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/YouDaoTranslatorHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/YouDaoXMLTranslator.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/TranslatorHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/Main.java" />
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1042" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -127,6 +179,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,6 +212,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -180,16 +238,14 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="KEY_COMPOSED_FOLDERS" value="{&quot;DecomposedFolders&quot;:[]}" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RenameIOSIcon2Android" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -458,22 +514,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3264865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.53405017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.532973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804877" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25647947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -484,7 +541,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897863" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -500,14 +556,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/XMLTranslator.java</url>
-          <line>112</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
@@ -517,71 +565,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/XMLTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3844">
-          <caret line="128" column="95" selection-start-line="128" selection-start-column="95" selection-end-line="128" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/result/YouDaoTranslateResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/YouDaoXMLTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/GoogleXMLTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/GoogleXMLTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/XMLTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/XMLTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3844">
           <caret line="128" column="95" selection-start-line="128" selection-start-column="95" selection-end-line="128" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -589,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -605,10 +598,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
           <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
-          <folding>
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -623,10 +613,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1960">
           <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
-          <folding>
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -642,10 +629,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -653,10 +637,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,10 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#373#374#0" expanded="false" />
-            <element signature="e#396#397#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,35 +683,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/DeepCopy.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="497" column="16" selection-start-line="497" selection-start-column="16" selection-end-line="497" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/File.java" />
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/result/YouDaoTranslateResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="543" column="6" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/InputStreamReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="93" column="11" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/List.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/InputStreamReader.java" />
     <entry file="jar://$PROJECT_DIR$/libs/dom4j-2.0.0-RC1.jar!/org/dom4j/Document.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -741,169 +700,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/FileOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4526">
-          <caret line="160" column="11" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/BufferedReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="176" column="15" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="200" column="25" selection-start-line="200" selection-start-column="25" selection-end-line="200" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/result/BaiduTranslateResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1318">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/FileOutputStream.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/io/BufferedReader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/StringBuilder.java" />
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/language/BaiduLanguage.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/language/BaiduLanguage.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Class.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/reflect/Constructor.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+        <state relative-caret-position="168">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslatePlatform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="112">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Language.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/result/BaiduTranslateResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslateOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Translator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="504">
+          <caret line="24" column="72" selection-start-line="16" selection-start-column="4" selection-end-line="24" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/GoogleTranslatorHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="2174" column="26" selection-start-line="2174" selection-start-column="26" selection-end-line="2174" selection-end-column="26" />
+        <state relative-caret-position="728">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+            <element signature="e#1820#1821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/GoogleXMLTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/YouDaoTranslatorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1596#1597#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/YouDaoXMLTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#765#766#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/TranslatorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/reflect/Constructor.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/BaiduXMLTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
+        <state relative-caret-position="252">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/handler/BaiduTranslatorHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2089#2090#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="112">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/YouDaoXMLTranslator.java">
+    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/XMLTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="54" />
+        <state relative-caret-position="286">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/XMLTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/GoogleXMLTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="44" column="71" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xml/BaiduXMLTransaltor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="66" column="22" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="22" />
+        <state relative-caret-position="297">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -912,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="1326">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -985,7 +936,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

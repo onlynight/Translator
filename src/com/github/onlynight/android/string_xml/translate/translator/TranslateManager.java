@@ -1,34 +1,26 @@
 package com.github.onlynight.android.string_xml.translate.translator;
 
-import com.github.onlynight.android.string_xml.translate.translator.xml.BaiduXMLTransaltor;
-import com.github.onlynight.android.string_xml.translate.translator.xml.GoogleXMLTranslator;
-import com.github.onlynight.android.string_xml.translate.translator.xml.XMLTranslator;
-import com.github.onlynight.android.string_xml.translate.translator.xml.YouDaoXMLTranslator;
+import com.github.onlynight.android.string_xml.translate.translator.xmlImpl.XMLTranslator;
+import com.github.onlynight.android.string_xml.translate.utils.Constants;
 
 import java.io.File;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by lion on 2016/10/28.
+ * 翻译管理器，统一调度管理翻译器
  */
 public class TranslateManager {
 
-    private static final Map<TranslatePlatform, Class<? extends XMLTranslator>> platformConfig =
-            new HashMap<>();
-
-    static {
-        platformConfig.put(TranslatePlatform.BAIDU, BaiduXMLTransaltor.class);
-        platformConfig.put(TranslatePlatform.GOOGLE, GoogleXMLTranslator.class);
-        platformConfig.put(TranslatePlatform.YOUDAO, YouDaoXMLTranslator.class);
-    }
-
+    //翻译扫描路径
     private String translatePath = "";
+    //是否翻译扫描路径下的所有xml文件
     private boolean translateAllXml = false;
+    //翻译平台
     private TranslatePlatform platform;
 
+    //如果translateAllXml==false则默认翻译strings.xml文件
     private static final String XML_FILE_NAME = "strings.xml";
 
     private static TranslateManager instance;
@@ -69,7 +61,7 @@ public class TranslateManager {
     }
 
     private void innerTranslate(String path, Language src, Language target) {
-        Class<? extends XMLTranslator> translatorClass = platformConfig.get(platform);
+        Class<? extends XMLTranslator> translatorClass = Constants.platformConfig.get(platform);
         try {
             Constructor<? extends XMLTranslator> constructor = translatorClass.getDeclaredConstructor(String.class);
             XMLTranslator translator = constructor.newInstance(path);

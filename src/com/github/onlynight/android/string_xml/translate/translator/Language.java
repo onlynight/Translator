@@ -2,6 +2,7 @@ package com.github.onlynight.android.string_xml.translate.translator;
 
 /**
  * Created by lion on 2016/10/28.
+ * 语言简写配置，目前的几种语言使用的是google翻译的标准
  */
 public enum Language {
     CN("zh-cn"), //简体中文
