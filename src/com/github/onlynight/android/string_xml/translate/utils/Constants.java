@@ -17,12 +17,12 @@ import java.util.Map;
 public class Constants {
 
     //百度翻译平台账号信息
-    public static final String BAIDU_APP_ID = "20161028000030981";
-    public static final String BAIDU_APP_SECRET = "6SluTL5sbgymRn0IWZfd";
+    public static final String BAIDU_APP_ID = "";
+    public static final String BAIDU_APP_SECRET = "";
     //google翻译平台所有api key
-    public static final String GOOGLE_API_KEY = "AIzaSyBf5PSylPMHNfCGlzAFJ-8pNOh-0TKuZnE";
+    public static final String GOOGLE_API_KEY = "";
     //有道翻译平台api key
-    public static final String YOUDAO_API_KEY = "1288189848";
+    public static final String YOUDAO_API_KEY = "";
 
     //翻译平台配置，方便拓展所以放在这里
     public static final Map<TranslatePlatform, Class<? extends XMLTranslator>>
