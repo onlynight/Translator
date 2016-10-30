@@ -7,31 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a0e54aa-a1e1-44f0-b9b7-2fe6815913de" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/Language.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/TranslatePlatform.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/Translator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/BaiduTranslateResult$TransResultBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/BaiduTranslateResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult$DataBean$TranslationsBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult$DataBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/GoogleTranslateResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/translator/result/YouDaoTranslateResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/utils/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Translate/com/github/onlynight/android/string_xml/translate/utils/MD5Utils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/values-en/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/values-en/umeng_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/values-ja/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/values-ja/umeng_strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/values-zh-rTW/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/values-zh-rTW/umeng_strings.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Translate_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Translate_jar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java" afterPath="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Translate.iml" afterPath="$PROJECT_DIR$/Translate-Github.iml" />
     </list>
     <ignored path="StringXMLTranslate.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,30 +28,7 @@
     <favorites_list name="StringXMLTranslate" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -136,6 +90,7 @@
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/TranslateManager.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/Main.java" />
         <option value="$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -245,7 +200,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="translator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -534,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477838705836</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="inital commit">
+      <created>1477839645639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1477839645639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -580,7 +542,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. 添加百度翻译&#10;2. 修改结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 添加百度翻译&#10;2. 修改结构" />
+    <MESSAGE value="inital commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="inital commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,13 +556,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/GoogleXMLTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/translator/xmlImpl/XMLTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3844">
@@ -868,10 +824,18 @@
     <entry file="file://$PROJECT_DIR$/src/com/github/onlynight/android/string_xml/translate/utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
-          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
