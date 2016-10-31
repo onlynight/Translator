@@ -1,6 +1,8 @@
 Android string.xml 翻译工具
 ===========================
 
+源码你可以在Github上看到：https://github.com/onlynight/Translator
+
 #概述
 最近要把公司的app往国外推广，无奈只做了中文版，好在所有的字符串都是写在string.xml文件中的，为了快速推出海外版本，决定有机器翻译先做一个简单的版本。说到这里问题就来啦，这么多文本难道一句一句的复制粘贴呀，当然写个小工具翻译既省时又省力。想法有了找一下翻译平台，首先想到google但是google要翻墙对网络环境不太好的小伙伴要求太高，所以想到了国内的百度翻译和有道翻译。
 
@@ -84,3 +86,6 @@ TranslateManager.getInstance().translate(Language.CN, Language.EN);
 1. 在{@link com.github.onlynight.android.string_xml.translate.translator.TranslatePlatform}中新建一个平台，并且将新添加的平台配置到{@link com.github.onlynight.android.string_xml.translate.utils.Constants}类中的platformConfig中去，具体方法参考其他平台配置。
 2. {@link com.github.onlynight.android.string_xml.translate.translator.Language}中添加新的语言这里使用的是google翻译平台标准简称，如果你使用其他平台需要将简称转换以下，参考{@link com.github.onlynight.android.string_xml.translate.translator.xmlImpl.BaiduXMLTranslator}中的转换方法。
 3. 你需要在{@link com.github.onlynight.android.string_xml.translate.utils.Constants}中配置valuesFolders，添加不同语言对应的文件夹。
+
+
+[Github_Source]: https://github.com/onlynight/Translator
