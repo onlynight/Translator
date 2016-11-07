@@ -6,6 +6,7 @@ import com.github.onlynight.android.string_xml.translate.utils.Constants;
 import java.io.File;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
+import java.util.List;
 
 /**
  * Created by lion on 2016/10/28.
@@ -65,11 +66,24 @@ public class TranslateManager {
         try {
             Constructor<? extends XMLTranslator> constructor = translatorClass.getDeclaredConstructor(String.class);
             XMLTranslator translator = constructor.newInstance(path);
-            translator.translate(src, target);
+            if (target == null) {
+                List<Language> languages = translator.getSupportLanguage();
+                for (Language language : languages) {
+                    if (language != src) {
+                        translator.translate(src, language);
+                    }
+                }
+            } else {
+                translator.translate(src, target);
+            }
         } catch (NoSuchMethodException | IllegalAccessException |
                 InstantiationException | InvocationTargetException e) {
             e.printStackTrace();
         }
+    }
+
+    public void translateAll(Language src) {
+        translate(src, null);
     }
 
     public void setTranslatePath(String translatePath) {

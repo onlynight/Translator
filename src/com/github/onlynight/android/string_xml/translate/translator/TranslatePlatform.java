@@ -5,7 +5,17 @@ package com.github.onlynight.android.string_xml.translate.translator;
  * 翻译平台
  */
 public enum TranslatePlatform {
-    YOUDAO,//有道
-    GOOGLE,//google
-    BAIDU //百度
+    YOUDAO("youdao"),//有道
+    GOOGLE("google"),//google
+    BAIDU("baidu"); //百度
+
+    private String value;
+
+    TranslatePlatform(String value) {
+        this.value = value;
+    }
+
+    public String getValue() {
+        return value;
+    }
 }

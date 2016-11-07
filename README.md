@@ -10,9 +10,7 @@ Android string.xml 翻译工具
 
 #使用
 
-首先，你需要配置平台key，你要使用什么平台就配置什么平台的，在类{@link com.github.onlynight.android.string_xml.translate.utils.Constants}中配置即可。平台上都有说明文档这里就不再赘述了。
-
-在```Main.java```中有使用的demo，你可以参考demo中的代码，如果你需要自定义翻译文件你需要做做如下操作：
+```Main.java```中有使用的demo，你可以参考demo中的代码，如果你需要自定义翻译文件你需要做做如下操作：
 
 ###1.初始化```TranslateManager```
 使用前需要先初始化翻译管理器，需要注意的是，如果你要切换其他平台翻译的话你需要重新初始化。

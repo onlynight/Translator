@@ -1,5 +1,7 @@
 package com.github.onlynight.android.string_xml.translate.translator;
 
+import java.util.List;
+
 /**
  * Created by lion on 2016/9/23.
  * 翻译公共接口，以后拓展就可以不局限为xml翻译
@@ -32,4 +34,11 @@ public interface Translator {
      * @return 最终处理翻译请求的结果
      */
     String onTranslateFinished(String result);
+
+    /**
+     * 这个函数中需要返回该平台所支持的语言
+     *
+     * @return
+     */
+    List<Language> getSupportLanguage();
 }

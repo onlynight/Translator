@@ -51,7 +51,8 @@ public class Main {
 
     public static void main(String[] args) {
         File currentPath = new File("");
-        baidu(currentPath, true);
+        googleAll(currentPath, true);
+//        baidu(currentPath, true);
 //        google(currentPath, true);
 //        youdao(currentPath, true);
     }
@@ -59,24 +60,30 @@ public class Main {
     private static void youdao(File currentPath, boolean translateAllXml) {
         TranslateManager.getInstance().
                 init(currentPath.getAbsolutePath(), translateAllXml, TranslatePlatform.YOUDAO);
-        TranslateManager.getInstance().translate(Language.CN, Language.EN);
-        TranslateManager.getInstance().translate(Language.CN, Language.JA);
-        TranslateManager.getInstance().translate(Language.CN, Language.TW);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.EN);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.JA);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.ZH_TW);
     }
 
     private static void google(File currentPath, boolean translateAllXml) {
         TranslateManager.getInstance().
                 init(currentPath.getAbsolutePath(), translateAllXml, TranslatePlatform.GOOGLE);
-        TranslateManager.getInstance().translate(Language.CN, Language.EN);
-        TranslateManager.getInstance().translate(Language.CN, Language.JA);
-        TranslateManager.getInstance().translate(Language.CN, Language.TW);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.EN);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.JA);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.ZH_TW);
+    }
+
+    private static void googleAll(File currentPath, boolean translateAllXml) {
+        TranslateManager.getInstance().
+                init(currentPath.getAbsolutePath(), translateAllXml, TranslatePlatform.GOOGLE);
+        TranslateManager.getInstance().translateAll(Language.ZH_CN);
     }
 
     private static void baidu(File currentPath, boolean translateAllXml) {
         TranslateManager.getInstance().
                 init(currentPath.getAbsolutePath(), translateAllXml, TranslatePlatform.BAIDU);
-        TranslateManager.getInstance().translate(Language.CN, Language.EN);
-        TranslateManager.getInstance().translate(Language.CN, Language.JA);
-        TranslateManager.getInstance().translate(Language.CN, Language.TW);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.EN);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.JA);
+        TranslateManager.getInstance().translate(Language.ZH_CN, Language.ZH_TW);
     }
 }
