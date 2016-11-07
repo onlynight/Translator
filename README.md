@@ -10,7 +10,13 @@ Android string.xml 翻译工具
 
 #使用
 
-```Main.java```中有使用的demo，你可以参考demo中的代码，如果你需要自定义翻译文件你需要做做如下操作：
+使用前你需要配置各个平台的key，在{@link com.github.onlynight.android.string_xml.translate.utils.Constants}类中对平台的key进行配置，平台文档地址：
+
+- google https://cloud.google.com/translate/v2/quickstart
+- 百度 http://api.fanyi.baidu.com/api/trans/product/apidoc
+- 有道 http://fanyi.youdao.com/openapi
+
+在```Main.java```中有使用的demo，你可以参考demo中的代码，如果你需要自定义翻译文件你需要做做如下操作：
 
 ###1.初始化```TranslateManager```
 使用前需要先初始化翻译管理器，需要注意的是，如果你要切换其他平台翻译的话你需要重新初始化。
