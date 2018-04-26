@@ -3,12 +3,12 @@ Android string.xml 翻译工具
 
 源码你可以在Github上看到：https://github.com/onlynight/Translator
 
-#概述
+# 概述
 最近要把公司的app往国外推广，无奈只做了中文版，好在所有的字符串都是写在string.xml文件中的，为了快速推出海外版本，决定有机器翻译先做一个简单的版本。说到这里问题就来啦，这么多文本难道一句一句的复制粘贴呀，当然写个小工具翻译既省时又省力。想法有了找一下翻译平台，首先想到google但是google要翻墙对网络环境不太好的小伙伴要求太高，所以想到了国内的百度翻译和有道翻译。
 
 当你需要快速翻译string.xml资源字符串中的文本时你就可以使用这个工具啦，这个工具还支持拓展，只需简单几部就能完成拓展，下面我们就来详细介绍下这个工具的实现以及拓展方法。
 
-#使用
+# 使用
 
 使用前你需要配置各个平台的key，在{@link com.github.onlynight.android.string_xml.translate.utils.Constants}类中对平台的key进行配置，平台文档地址：
 
@@ -18,7 +18,7 @@ Android string.xml 翻译工具
 
 在```Main.java```中有使用的demo，你可以参考demo中的代码，如果你需要自定义翻译文件你需要做做如下操作：
 
-###1.初始化```TranslateManager```
+### 1.初始化```TranslateManager```
 使用前需要先初始化翻译管理器，需要注意的是，如果你要切换其他平台翻译的话你需要重新初始化。
 
 ```java
@@ -31,7 +31,7 @@ TranslateManager.getInstance().
 - 第二个参数标识是否要翻译该目录下的所有xml文件
 - 最后一个参数标识翻译平台
 
-###2.调用翻译函数
+### 2.调用翻译函数
 初始化完成后就可以开始翻译了：
 
 ```java
@@ -41,7 +41,7 @@ TranslateManager.getInstance().translate(Language.CN, Language.EN);
 - 第一个参数是源语言
 - 第二个参数是要翻译的目标语言
 
-###3.查看翻译结果
+### 3.查看翻译结果
 调用翻译函数后查看日志直到翻译完成为止，目标文件生成在指定的翻译目录下```values-xxx```文件夹中。
 
 ![生成文件截图](./images/generate_files.png)
@@ -74,19 +74,19 @@ TranslateManager.getInstance().translate(Language.CN, Language.EN);
 - ```Constants```
 定义常用全局变量，比如平台key等其他静态配置。
 
-#拓展
+# 拓展
 简要说明在```Main.java```文件中已说明，下面视详细说明：
 
-##1.定义平台
+## 1.定义平台
 如果你要拓展新的翻译平台，你需要在{@link com.github.onlynight.android.string_xml.translate.translator.TranslatePlatform}中添加新的平台，这是定义平台的第一步，后续还要做一些和平台相关的配置。
 
-##2.拓展```XMLTranslator```
+## 2.拓展```XMLTranslator```
 继承自```XMLTranslator```类并实现它的所有抽象方法，我们暂时命名为```PlatformXMLTranslator```。```PlatformXMLTranslator```实际上只是一个代理类，但是为了方便拓展其他的功能并没有实现```Translator```接口，而是重新定义接口尽量使函数名称相似。
 
-##3.实现```TranslatorHandler```
+## 3.实现```TranslatorHandler```
 新添加的平台需要实现一个```TranslatorHandler```，这个类中定义了每个平台具体的操作。```onGenerateUrl```返回最终的请求平台的url，根据平台不同的规范拼接生成REST_API的url。```handleJsonString```和```handleXMLString```两个方法，这里暂时定义两种不同的返回结果处理函数，你也可以根据你的需求拓展这些接口。在```PlatformXMLTranslator```中实例化这个```TranslatorHandler```并在对应的方法中调用handler中对应的方法。
 
-##4.注意
+## 4.注意
 目前只添加了简体中文，繁体中文，英文，日文集中语言，如果你需要添加其他语言你需要做以下几件事：
 
 1. 在{@link com.github.onlynight.android.string_xml.translate.translator.TranslatePlatform}中新建一个平台，并且将新添加的平台配置到{@link com.github.onlynight.android.string_xml.translate.utils.Constants}类中的platformConfig中去，具体方法参考其他平台配置。
