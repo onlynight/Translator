@@ -75,7 +75,7 @@ public abstract class XMLTranslator implements Translator {
     private String loadXmlFile(String path) {
         try {
             FileInputStream fis = new FileInputStream(new File(path));
-            BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
+            BufferedReader reader = new BufferedReader(new InputStreamReader(fis, "utf-8"));
             StringBuilder result = new StringBuilder();
             String line;
             while ((line = reader.readLine()) != null) {
@@ -95,6 +95,7 @@ public abstract class XMLTranslator implements Translator {
         }
 
         String url = onGenerateUrl(sourceString, src, target);
+        System.out.println(" REQUEST URL ======> " + url);
 
         try {
             URLConnection connection = new URL(url).openConnection();
@@ -130,12 +131,15 @@ public abstract class XMLTranslator implements Translator {
         Iterator<Element> iterator = rootElement.elementIterator();
         while (iterator.hasNext()) {
             Element element = iterator.next();
+            System.out.print(element.getText());
 //            System.out.println(element.attribute("name").getValue());
 //            System.out.println(element.getText());
             String result = innerTranslate(element.getText(), src, target);
             if (result != null) {
                 System.out.println(element.getText() + " TRANSLATE TO ====> " + result);
                 element.setText(result);
+            } else {
+                System.out.println(element.getText() + " TRANSLATE ERROR!!!!!!");
             }
         }
     }

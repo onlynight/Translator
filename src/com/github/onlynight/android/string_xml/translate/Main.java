@@ -50,6 +50,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println("测试jar包中文乱码问题");
         File currentPath = new File("");
 //        googleAll(currentPath, true);
 //        youdaoAll(currentPath,true);
@@ -90,7 +91,7 @@ public class Main {
         TranslateManager.getInstance().
                 init(currentPath.getAbsolutePath(), translateAllXml, TranslatePlatform.BAIDU);
         TranslateManager.getInstance().translate(Language.ZH_CN, Language.EN);
-        TranslateManager.getInstance().translate(Language.ZH_CN, Language.JA);
-        TranslateManager.getInstance().translate(Language.ZH_CN, Language.ZH_TW);
+//        TranslateManager.getInstance().translate(Language.ZH_CN, Language.JA);
+//        TranslateManager.getInstance().translate(Language.ZH_CN, Language.ZH_TW);
     }
 }
