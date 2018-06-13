@@ -26,8 +26,8 @@ public class BaiduTranslatorHandler implements TranslatorHandler {
         String sign = sign(content, randomInt);
         try {
             return BAIDU_TRANSLATE_URL +
-                    "from=" + getShortLanguage(src) +
-                    "&to=" + getShortLanguage(target) +
+                    "from=" + convertLanguage(src) +
+                    "&to=" + convertLanguage(target) +
                     "&appid=" + BAIDU_APP_ID +
                     "&salt=" + randomInt +
                     "&q=" + URLEncoder.encode(content, "utf-8") +
@@ -59,15 +59,16 @@ public class BaiduTranslatorHandler implements TranslatorHandler {
         return MD5Utils.getMD5Code(signParams);
     }
 
-    private String getShortLanguage(Language language) {
-        if (language.getValue().equals("zh-cn")) {
-            return "zh";
-        } else if (language.getValue().equals("zh-tw")) {
-            return "cht";
-        } else if (language.getValue().equals("ja")) {
-            return "jp";
-        } else {
-            return language.getValue();
+    private String convertLanguage(Language language) {
+        switch (language.getValue()) {
+            case "zh-CN":
+                return "zh";
+            case "zh-TW":
+                return "cht";
+            case "ja":
+                return "jp";
+            default:
+                return language.getValue();
         }
     }
 }

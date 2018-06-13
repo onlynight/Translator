@@ -50,7 +50,7 @@ TranslateManager.getInstance().translate(Language.CN, Language.EN);
 **注意：**
 目前只支持在Intellij Idea中运行，打包成jar文件执行时文件乱码问题暂未解决，所以你需要安装Intellij Idea运行工程。
 
-#实现以及结构分析
+# 实现以及结构分析
 首先我们先来看下类图：
 
 ![类图](./images/class.png)

@@ -42,4 +42,5 @@ public class BaiduXMLTranslator extends XMLTranslator {
     public List<Language> getSupportLanguage() {
         return languages;
     }
+
 }

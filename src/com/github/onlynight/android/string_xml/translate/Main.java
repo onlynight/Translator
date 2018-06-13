@@ -51,8 +51,9 @@ public class Main {
 
     public static void main(String[] args) {
         File currentPath = new File("");
-        googleAll(currentPath, true);
-//        baidu(currentPath, true);
+//        googleAll(currentPath, true);
+//        youdaoAll(currentPath,true);
+        baidu(currentPath, true);
 //        google(currentPath, true);
 //        youdao(currentPath, true);
     }
@@ -63,6 +64,12 @@ public class Main {
         TranslateManager.getInstance().translate(Language.ZH_CN, Language.EN);
         TranslateManager.getInstance().translate(Language.ZH_CN, Language.JA);
         TranslateManager.getInstance().translate(Language.ZH_CN, Language.ZH_TW);
+    }
+
+    private static void youdaoAll(File currentPath, boolean translateAllXml) {
+        TranslateManager.getInstance().
+                init(currentPath.getAbsolutePath(), translateAllXml, TranslatePlatform.YOUDAO);
+        TranslateManager.getInstance().translateAll(Language.ZH_CN);
     }
 
     private static void google(File currentPath, boolean translateAllXml) {

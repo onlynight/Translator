@@ -51,8 +51,6 @@ public abstract class XMLTranslator implements Translator {
                     File.separator + new File(filePath).getName()));
             fos.write(xml.getBytes());
             fos.close();
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -78,13 +76,13 @@ public abstract class XMLTranslator implements Translator {
         try {
             FileInputStream fis = new FileInputStream(new File(path));
             BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
-            String result = "";
+            StringBuilder result = new StringBuilder();
             String line;
             while ((line = reader.readLine()) != null) {
-                result += line + "\n";
+                result.append(line).append("\n");
             }
 
-            return result;
+            return result.toString();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -102,13 +100,13 @@ public abstract class XMLTranslator implements Translator {
             URLConnection connection = new URL(url).openConnection();
             InputStream is = connection.getInputStream();
             BufferedReader reader = new BufferedReader(new InputStreamReader(is, "utf-8"));
-            String result = "";
-            String line = "";
+            StringBuilder result = new StringBuilder();
+            String line;
             while ((line = reader.readLine()) != null) {
-                result += line;
+                result.append(line);
             }
 
-            return onTranslateFinished(result);
+            return onTranslateFinished(result.toString());
         } catch (IOException e) {
             e.printStackTrace();
         }
