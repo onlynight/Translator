@@ -2,8 +2,7 @@ Android string.xml 翻译工具
 ===========================
 
 **这个老版的工具将不再维护。最新版已发布，基于插件的形式，你可以轻松的开发插件来选择你要使用的翻译平台，
-你也可以发开自己的文档解析插件，然后将文档解析插件和翻译平台插件任意组合更加灵活。项目地址在这里：
-https://github.com/onlynight/exchange**
+你也可以发开自己的文档解析插件，然后将文档解析插件和翻译平台插件任意组合更加灵活。项目地址在这里：https://github.com/onlynight/exchange**
 
 Android strings.xml translate tools
 ===================================
