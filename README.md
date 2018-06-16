@@ -13,8 +13,6 @@ you can simply develop you own plugins to access translate platform and parse ty
 You will fall in love with this new project. Follow me here:
 https://github.com/onlynight/exchange**
 
-源码你可以在Github上看到：https://github.com/onlynight/Translator
-
 # 概述
 最近要把公司的app往国外推广，无奈只做了中文版，好在所有的字符串都是写在string.xml文件中的，为了快速推出海外版本，决定有机器翻译先做一个简单的版本。说到这里问题就来啦，这么多文本难道一句一句的复制粘贴呀，当然写个小工具翻译既省时又省力。想法有了找一下翻译平台，首先想到google但是google要翻墙对网络环境不太好的小伙伴要求太高，所以想到了国内的百度翻译和有道翻译。
 
